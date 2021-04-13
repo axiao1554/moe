@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>阿小萌导航|我的私人专属二次元导航</title>
+    <meta name="description" content="阿小萌导航|我的私人专属二次元导航,及时收录动漫网站及资讯、宅网站、萌网站、动画、漫画、游戏等内容。让您获得更加简单快捷的二次元体验！提供简单便捷的上网导航服务。安全上网,从阿小萌导航开始。">
+    <meta name="author" content="阿小萌导航">
+    <meta name="keyword" content="阿小萌导航,二次元导航,网址之家,网址导航,上网导航,萌导航,萌站,动漫导航,动漫网站大全">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-next.png?v=7.1.2">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32-next.png?v=7.1.2">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16-next.png?v=7.1.2">
+    <link rel="mask-icon" href="images/logo.png?v=7.1.2" color="#222">
+    <link type="text/css" rel="stylesheet" href="css/wedo.css" />
+    <link rel="stylesheet" href="source/lib/aplayer/dist/APlayer.min.css">
+    <link rel="stylesheet" href="css/kankore.css">
+    <script src="source/lib/aplayer/dist/APlayer.min.js"></script>
+    <script>
+        /*百度统计*/
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?ae953f5183056700a5531ac54a310912";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <!-- 弹窗 -->
+    <div class="app-notifier" style="display: block;">
+        <div class="notifier-body">
+            <div class="bg"></div>
+            <div class="notifier-content">
+                <p>Ctrl+D收藏本导航、扫码关注公众号，顺手投食(＃°Д°)</p>
+                <div class="btn-group">
+                    <a class="btn ok" href="javascript:;" onclick="hide_alert2()">查看</a>
+                    <a class="btn cancel" href="javascript:;" onclick="hide_alert()">朕知道了</a>
+                </div>
+                <div class="wechat-q">
+                    <img src="picture/wechat-qcode.jpg" width="105px" height="105px" alt="">
+                    <img src="picture/wechatpay.png" width="100px" height="100px" alt="">
+                    <img src="picture/alipay.png" width="100px" height="100px" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 轮播 -->
+    <div id="m_bgctrl_wrp">
+        <div id="m_bgctrl">
+            <i class="prev"></i>
+            <i class="lock locker"></i>
+            <div class="info">
+                <a href="" target="_blank"></a>
+            </div>
+            <i class="next" href="javascript:;"></i>
+        </div>
+    </div>
+    
+    <!-- top -->
+    <div id="top">
+        <div class="kuandu">
+            <div class="logo">
+                <!-- <a href="http://blog.axiao.vip/moe" title="阿小萌导航">
+                    <img src="picture/99ca6c079fee476dbd296cff8b7c7445.gif" alt="阿小萌导航" title="阿小萌导航">
+                </a> -->
+            </div>
+            <div class="search fr">
+                <form target="_blank"  name="submitform2" >
+                    <input type="text"  id="opentext" name="word" autocomplete="off" placeholder="此处输入关键词进行搜索"/>
+                    <input type="submit" class="baidu" value="百度搜索"  onclick="webopen('http://www.baidu.com/baidu','word')">
+                    <input type="submit" class="haosou" id="so360_submit" value="360搜索" onclick="webopen('http://www.haosou.com/s','q')" />
+                    <!-- <iframe name="weather_inc" src="" width="550" height="70" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="position:relative;left:43px;top:3px;">
+                    </iframe> --><!-- http://i.tianqi.com/index.php?c=code&id=40 -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分隔符 主要栏目 -->
+    <div id="icon_list">
+        <ul>
+            <li class="project">
+                <a href="http://www.bilibili.com/" title="哔哩哔哩弹幕视频网" target="_blank">
+                    <img alt="哔哩哔哩弹幕视频网" src="picture/bili.png">
+                    <div class="title">
+                        <span>哔哩哔哩</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://www.acfun.cn/" title="AcFun弹幕视频网" target="_blank">
+                    <img alt="AcFun弹幕视频网" src="picture/acfun.png">
+                    <div class="title">
+                        <span>AcFun</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://www.dilidili.name/" title="嘀哩嘀哩" target="_blank">
+                    <img alt="嘀哩嘀哩" src="picture/dili.png">
+                    <div class="title">
+                        <span>嘀哩嘀哩</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://bcy.net/" title="半次元" target="_blank">
+                    <img alt="半次元" src="picture/banciyuan.png">
+                    <div class="title">
+                        <span>半次元</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="https://www.dmzj.com/" title="动漫之家" target="_blank">
+                    <img alt="动漫之家" src="picture/dongman.png">
+                    <div class="title">
+                        <span>动漫之家</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://anime.upupoo.com/" title="啊噗猫追番" target="_blank">
+                    <img alt="啊噗猫追番" src="picture/apm.png">
+                    <div class="title">
+                        <span>啊噗猫追番</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://zh.moegirl.org/Mainpage" title="萌娘百科" target="_blank">
+                    <img alt="萌娘百科" src="picture/moegirl.png">
+                    <div class="title">
+                        <span>萌娘百科</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://bangumi.tv/" title="Bangumi番组计划" target="_blank">
+                    <img alt="Bangumi番组计划" src="picture/bangumi.png">
+                    <div class="title">
+                        <span>番组计划</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://nyato.com/" title="Nyato喵特漫展" target="_blank">
+                    <img alt="Nyato喵特漫展" src="picture/miaote.jpg">
+                    <div class="title">
+                        <span>喵特漫展</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://www.weibo.com/" title="新浪微博" target="_blank">
+                    <img alt="新浪微博" src="picture/weibo.jpg">
+                    <div class="title">
+                        <span>新浪微博</span>
+                    </div>
+                </a>
+            </li>
+            <li class="project">
+                <a href="http://tieba.baidu.com/" title="百度贴吧" target="_blank">
+                    <img alt="百度贴吧" src="picture/baidu.png">
+                    <div class="title">
+                        <span>百度贴吧</span>
+                    </div>
+                </a>
+            </li>  
+        </ul>
+    </div>
+    <div class="clear"></div>
+
+    <!-- 分隔符 右侧浮动导航 -->
+    <div id="rfloat">
+        <ul>
+            <li><a href="javascript:;" onclick="getBottom()">到达底部</a></li>
+            <li><a href="http://blog.axiao.vip" title="阿小笔记" target="_blank">阿小笔记</a></li>
+            <!-- <li><a href="http://v.axiao.vip" title="阿小影视" target="_blank">阿小影视</a></li> -->
+            <li><a href="http://blog.axiao.vip/home" title="阿小之家" target="_blank">阿小之家</a></li>
+            <!-- <li><a href="http://shengqian.axiao.vip" title="阿小好券" target="_blank">阿小好券</a></li> -->
+            <li><a href="javascript:alert('敬请期待！');" title="实验基地" target="_blank">实验基地</a></li>
+            <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=EXBpeHB_ICQkJVFgYD9yfnw" target="_blank">网址提交</a></li>
+            <li><a href="javascript:;" onclick="getTop()">返回顶部</a></li>
+        </ul>
+    </div>
+
+    <!-- 导航明细 -->
+    <div class="nav_list">
+        <div class="category">
+            <div class="type barrage"><font class="yellow text">弹幕</font></div>
+            <ul>
+                <li><a href="http://www.bilibili.com/" target="_blank">哔哩哔哩<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.acfun.cn/" target="_blank">AcFun<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.dilidili.name/" target="_blank">嘀哩嘀哩</a></li>
+                <li><a href="http://neets.cc/" target="_blank">Neets小站</a></li>
+                <li><a href="http://www.ikanfan.com/" target="_blank">爱看番</a></li>
+                <li><a href="https://idanmu.at/" target="_blank">爱弹幕</a></li>
+                <li><a href="http://luxun.pro/" target="_blank">鲁迅追番<img src="picture/hot.gif" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type live_broadcast"><font class="yellow text">直播</font></div>
+            <ul>
+                <li><a href="https://www.douyu.com/" target="_blank">斗鱼TV<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://www.huya.com/" target="_blank">虎牙直播<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://live.bilibili.com/" target="_blank">哔哩哔哩直播</a></li>
+                <li><a href="https://www.zhanqi.tv/" target="_blank">战旗TV</a></li>
+                <li><a href="http://longzhu.com/" target="_blank">龙珠直播</a></li>
+                <li><a href="https://chushou.tv/" target="_blank">触手直播</a></li>
+                <li><a href="http://www.huajiao.com/" target="_blank">花椒直播</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type cartoon"><font class="yellow text">漫画</font></div>
+            <ul>
+                <li><a href="https://ac.qq.com/" target="_blank">腾讯动漫</a></li>
+                <li><a href="https://www.dmzj.com/" target="_blank">动漫之家</a></li>
+                <li><a href="http://www.u17.com/" target="_blank">有妖气<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://baozoumanhua.com/" target="_blank">暴走漫画<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://www.mkzhan.com/" target="_blank">漫客栈</a></li>
+                <li><a href="http://manhua.weibo.com/" target="_blank">微博动漫</a></li>
+                <li><a href="http://www.dididudu.com/" target="_blank">晴天新漫画</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type novel"><font class="yellow text">小说</font></div>
+            <ul>
+                <li><a href="https://www.linovel.net/" target="_blank">轻之文库</a></li>
+                <li><a href="https://www.iqing.com/" target="_blank">轻文<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://book.sfacg.com/" target="_blank">SF轻小说<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://huayu.zongheng.com/" target="_blank">花语女生网</a></li>
+                <li><a href="https://www.bearead.com/" target="_blank">白熊阅读</a></li>
+                <li><a href="http://chuangshi.qq.com/" target="_blank">创世中文网</a></li>
+                <li><a href="http://www.iciyuan.com/" target="_blank">iciyuan轻小说</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type grace"><font class="yellow text">萌图</font></div>
+            <ul>
+                <li><a href="https://acg.fi/" target="_blank">A区<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://h.bilibili.com/" target="_blank">哔哩哔哩相簿</a></li>
+                <li><a href="http://huamoe.com/" target="_blank">画萌</a></li>
+                <li><a href="https://www.huiman.net/" target="_blank">汇漫网</a></li>
+                <li><a href="https://www.moehui.com/" target="_blank">萌绘</a></li>
+                <li><a href="http://yuriimg.com/" target="_blank">百合图片</a></li>
+                <li><a href="http://www.gilieye.com/" target="_blank">Gili爱</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type music"><font class="yellow text">萌音</font></div>
+            <ul>
+                <li><a href="http://www.huanmusic.com/" target="_blank">幻音音乐</a></li>
+                <li><a href="https://biu.moe/" target="_blank">Biu</a></li>
+                <li><a href="http://www.acgjc.com/" target="_blank">漫音社</a></li>
+                <li><a href="https://www.beatstage.com/" target="_blank">BeatStage</a></li>
+                <li><a href="https://www.yuanyintang.com/" target="_blank">源音塘</a></li>
+                <li><a href="http://moefou.org/" target="_blank">萌否</a></li>
+                <li><a href="http://www.littlemusic.tv/" target="_blank">LittleMusic<img src="picture/hot.gif" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="nav_list">
+        <!-- 预留广告位 960*100 -->
+        <div class="ad1"><a href=""><img src="images/gg1.jpg" width="100%" height="100%" alt=""></a></div>
+        <div class="category">
+            <div class="type cos"> <font class="blue text">COS</font></div>
+            <ul>
+                <li><a href="https://www.cosplaymore.com/" target="_blank">Cosplay联盟<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.mycoser.com/" target="_blank">麦涩网<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://worldcosplay.net/" target="_blank">World Cos</a></li>
+                <li><a href="http://www.cosplay8.com/" target="_blank">cosplay8</a></li>
+                <li><a href="https://www.cilacila.com/" target="_blank">cilacila</a></li>
+                <li><a href="https://t2cy.com/" target="_blank">推次元</a></li>
+                <li><a href="http://www.cosplayla.com/" target="_blank">Cosplay啦</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type figurine"><font class="blue text">手办</font></div>
+            <ul>
+                <li><a href="http://www.actoys.net/" target="_blank">AC模玩网</a></li>
+                <li><a href="http://www.manluotuo.com/" target="_blank">漫骆驼</a></li>
+                <li><a href="http://www.xiaot.com/" target="_blank">XiaoT模型</a></li>
+                <li><a href="https://hobby.dengeki.com/" target="_blank">DHW手办</a></li>
+                <li><a href="http://www.78dm.net/" target="_blank">78动漫</a></li>
+                <li><a href="http://www.aemedia.org/" target="_blank">高达同好</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type comiket"><font class="blue text">漫展</font></div>
+            <ul>
+                <li><a href="https://www.nyato.com/" target="_blank">喵特漫展<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.wadmz.com/" target="_blank">野菊漫展</a></li>
+                <li><a href="https://www.bo2.cn/portal.php" target="_blank">Bo2动漫联盟</a></li>
+                <li><a href="http://www.allcpp.cn/" target="_blank">无差别同人站</a></li>
+                <li><a href="https://www.aimanzhan.com/" target="_blank">爱漫展</a></li>
+                <li><a href="http://www.comiai.com/index.html" target="_blank">武汉CA</a></li>
+                <li><a href="http://www.manzhan.com/" target="_blank">漫展网</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type shopping"><font class="blue text">萌购</font></div>
+            <ul>
+                <li><a href="http://www.masadora.net/" target="_blank">魔法集市</a></li>
+                <li><a href="https://www.030buy.net/" target="_blank">萌购</a></li>
+                <li><a href="https://manzong.tmall.com/" target="_blank">漫踪旗舰店</a></li>
+                <li><a href="http://www.cycang.com/" target="_blank">次元仓</a></li>
+                <li><a href="http://www.moehot.com/" target="_blank">萌热<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.yukicomic.com" target="_blank">Yuki动漫</a></li>
+                <li><a href="https://www.moyutang.fun" target="_blank">摸鱼塘</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="nav_list">
+        <!-- 预留广告位 960*100 -->
+        <div class="ad2"><a href=""><img src="images/gg2.jpg" width="100%" height="100%" alt=""></a></div>
+        <div class="category">
+            <div class="type forum"><font class="purple text">论坛</font></div>
+            <ul>
+                <li><a href="https://acgn.zone/" target="_blank">ACGN里世界</a></li>
+                <li><a href="http://mcyacg.com/" target="_blank">梦次元</a></li>
+                <li><a href="https://www.9moe.com/" target="_blank">绯月</a></li>
+                <li><a href="http://bbs.kdays.net" target="_blank">kdays</a></li>
+                <li><a href="https://www.didm.cc/" target="_blank">嘀动漫</a></li>
+                <li><a href="http://fantuanpu.com/forum.php" target="_blank">饭团扑</a></li>
+                <li><a href="https://bbs.acg-moe.com/" target="_blank">御宅同萌</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type community"><font class="purple text">社区</font></div>
+            <ul>
+                <li><a href="https://www.mooyuu.com/" target="_blank">摸鱼<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://www.hyacg.com/" target="_blank">Happy Yooo!</a></li>
+                <li><a href="https://www.comicst.com/" target="_blank">漫社堂</a></li>
+                <li><a href="https://bbs.zmobuy.com/" target="_blank">周末社区</a></li>
+                <li><a href="https://www.dmdjz.com/" target="_blank">动漫大家族</a></li>
+                <li><a href="https://www.acgke.com/" target="_blank">次元客</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type wiki"><font class="purple text">互动</font></div>
+            <ul>
+                <li><a href="http://www.3000.com/" target="_blank">闪艺<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://www.iwzyx.com/" target="_blank">蝶梦</a></a></li>
+                <li><a href="https://www.iqing.com/c/100#/?type=game" target="_blank">演绘</a></li>
+                <li><a href="http://www.66rpg.com/" target="_blank">橙光</a></li>
+                <li><a href="http://avg.163.com/home" target="_blank">易次元<img src="picture/hot.gif" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type information"><font class="purple text">资讯</font></div>
+            <ul>
+                <li><a href="https://www.zymk.cn/" target="_blank">知音漫客<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.avgchannel.com/" target="_blank">ACG资讯</a></li>
+                <li><a href="http://www.eroacg.com/" target="_blank">EroACG</a></li>
+                <li><a href="http://www.cxacg.com/" target="_blank">橙心社</a></li>
+                <li><a href="http://www.gxdmw.com/" target="_blank">高校动漫网</a></li>
+                <li><a href="http://www.onijiang.com/" target="_blank">欧尼酱</a></li>
+                <li><a href="https://www.diyidan.com/" target="_blank">第一弹<img src="picture/hot.gif" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type blog"><font class="purple text">博客</font></div>
+            <ul>
+                <li><a href="http://www.llss.pl/" target="_blank">琉璃神社</a></li>
+                <li><a href="https://cangku.moe/" target="_blank">绅士仓库<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://www.mmgal.com/" target="_blank">MyGalgame</a></li>
+                <li><a href="https://idanmu.at/" target="_blank">爱弹幕</a></li>
+                <li><a href="https://www.zhaicy.com/" target="_blank">宅次元</a></li>
+                <li><a href="https://www.tianshie.com/" target="_blank">天使二次元</a></li>
+                <li><a href="http://www.moejoy.com/" target="_blank">萌之轨迹</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="nav_list">
+        <!-- 预留广告位 960*100 -->
+        <div class="ad3"><a href=""><img src="images/gg3.jpg" width="100%" height="100%" alt=""></a></div>
+        <div class="category">
+            <div class="type download"><font class="green text">下载</font></div>
+            <ul>
+                <li><a href="https://www.mmgal.com/" target="_blank">MyGalgame<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://share.acgnx.se/" target="_blank">末日BT</a></li>
+                <li><a href="http://moe.005.tv/" target="_blank">萌娘资源站<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.kisssub.org/" target="_blank">爱恋BT</a></li>
+                <li><a href="http://bt.acg.gg/" target="_blank">ACG狗狗</a></li>
+                <li><a href="https://bangumi.moe/" target="_blank">萌番组</a></li>
+                <li><a href="https://moe4sale.in/" target="_blank">KOTOMI RSS</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type game"><font class="green text">游戏</font></div>
+            <ul>
+                <li><a href="http://www.itmo.com/" target="_blank">爱萌游戏</a></li>
+                <li><a href="http://www.biligame.com/" target="_blank">biligame</a></li>
+                <li><a href="http://www.tgbus.com/" target="_blank">电玩巴士</a></li>
+                <li><a href="http://www.duowan.com/" target="_blank">多玩游戏</a></li>
+                <li><a href="https://www.17173.com/" target="_blank">17173</a></li>
+                <li><a href="https://www.gamersky.com/" target="_blank">游民星空</a></li>
+                <li><a href="https://www.ali213.net/" target="_blank">游侠网</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type subtitle"><font class="green text">字幕</font></div>
+            <ul>
+                <li><a href="http://www.kamigami.org/" target="_blank">诸神字幕组<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://www.airota.net/bbs/" target="_blank">千夏字幕组</a></li>
+                <li><a href="http://www.sosg.net/SOSG%E5%AD%97%E5%B9%95%E7%BB%84-l72.htm" target="_blank">SOSG字幕组</a></li>
+                <li><a href="https://bbs.popgo.org/bbs/" target="_blank">漫游字幕组</a></li>
+                <li><a href="https://www.ribenshi.com/forum/forum.php" target="_blank">日史译组</a></li>
+                <li><a href="http://www.zhuixinfan.com/main.php" target="_blank">追新番</a></li>
+                <li><a href="http://pssclub.com/forum.php" target="_blank">光合社</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type app"><font class="green text">APP</font></div>
+            <ul>
+                <li><a href="https://www.nyato.com/" target="_blank">喵特</a></li>
+                <li><a href="http://www.ciyo.cn/" target="_blank">次元社</a></li>
+                <li><a href="https://163.bilibili.com/" target="_blank">网易漫画<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="http://www.chaonenglu.com/" target="_blank">超能</a></li>
+                <li><a href="https://www.diyidan.com/" target="_blank">第一弹</a></li>
+                <li><a href="http://www.shuaacg.com/" target="_blank">刷刷</a></li>
+                <li><a href="https://www.fanshuxiaozu.com/" target="_blank">番薯小组</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type wallpaper"><font class="green text">壁纸</font></div>
+            <ul>
+                <li><a href="http://www.upupoo.com/" target="_blank">Upupoo<img src="picture/hot.gif" alt=""></a></li>
+                <li><a href="https://www.moepic.net/" target="_blank">萌图床</a></li>
+                <li><a href="http://konachan.net/" target="_blank">Konachan</a></li>
+                <li><a href="http://e-shuushuu.net/" target="_blank">E-Shuushuu</a></li>
+                <li><a href="http://gal.voiux.com/" target="_blank">voiux</a></li>
+                <li><a href="https://www.roame.net/" target="_blank">路游动漫</a></li>
+                <li><a href="http://moe.005.tv/" target="_blank">萌娘资源站</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <div class="type tool"><font class="green text">工具</font></div>
+            <ul>
+                <li><a href="http://mengma.moe/" target="_blank">萌码</a></li>
+                <li><a href="https://jikipedia.com/" target="_blank">小鸡词典</a></li>
+                <li><a href="http://www.secaibi.com/designtools/media/pages/resizer.html" target="_blank">图片压缩</a></li>
+                <li><a href="http://i.girigiri.love/" target="_blank">滑稽表情</a></li>
+                <li><a href="https://shitu.baidu.com/" target="_blank">百度识图</a></li>
+                <li><a href="http://tool.mkblog.cn/" target="_blank">atool</a></li>
+                <li><a href="http://www.torrent.org.cn/" target="_blank">磁力种子转换</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="link">
+        <div class="linktop"><span>友情链接</span></div>
+        <ul>
+            <li><a href="http://blog.axiao.vip/moe">阿小萌导航</a></li>
+            <li><a href="http://blog.axiao.vip">阿小笔记</a></li>
+            <!-- <li><a href="http://v.axiao.vip">阿小影视</a></li> -->
+            <li><a href="http://blog.axiao.vip/home">阿小之家</a></li>
+            <!-- <li><a href="http://shengqian.axiao.vip">阿小好券</a></li> -->
+        </ul>
+        <br class="clear">
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; 2019 ❤️ <a href="http://blog.axiao.vip/" target="_blank">阿小</a></p>
+        <p><a href="http://beian.miit.gov.cn" target="_blank">晋ICP备17012880号-2</a></p>
+        <p><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=EXBpeHB_ICQkJVFgYD9yfnw" target="_blank">合作联系邮箱：axiao1554@qq.com</a></p>
+        <p>阿小萌导航，我的私人专属二次元导航</p>
+        <p>『<span id="sitetime"></span>』</p>
+    </div>
+    <!-- kankore -->
+    <div class="kankore-bath">
+        <div class="akagi kan" href="javascript:;">
+            <img src="picture/kankore-bath-akagi.png">
+        </div>
+        <div class="shimakaze kan floating" href="javascript:;">
+            <img src="picture/kankore-bath-shimakaze.png">
+        </div>
+        <div class="ryujo kan" href="javascript:;">
+            <img src="picture/kankore-bath-ryujo.png">
+        </div>
+        <div class="kitakami kan floating" href="javascript:;">
+            <img src="picture/kankore-bath-kitakami.png">
+        </div>
+        <div class="akagi kan" href="javascript:;">
+            <img src="picture/kankore-bath-uzuki.png">
+        </div>
+        <div class="akagi kan" href="javascript:;">
+            <img src="picture/kankore-bath-yayoi.png">
+        </div>
+    </div>
+    <!-- aplayer -->
+    <div id="aplayer"></div>
+    <!-- Scripts -->
+    <script>
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            theme: '#222',
+            fixed: true,
+            lrcType: 3,
+            audio: [{
+                name: '青鸟',
+                artist: 'いきものがかり',
+                url: 'source/lib/assets/qn.mp3',
+                cover: 'source/lib/assets/cover.jpg',
+                lrc: 'source/lib/assets/qn.lrc'
+            }]
+        });
+    </script>
+    <script>
+        /*百度推送*/
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate.min.js"></script>
+<script src="js/clicklove.js"></script>
+<script src="js/uptitle.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/kankore.js"></script>
+<script>
+function siteTime(){
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000;
+    var minutes = seconds * 60;
+    var hours = minutes * 60;
+    var days = hours * 24;
+    var years = days * 365;
+    var today = new Date();
+    var todayYear = today.getFullYear();
+    var todayMonth = today.getMonth()+1;
+    var todayDate = today.getDate();
+    var todayHour = today.getHours();
+    var todayMinute = today.getMinutes();
+    var todaySecond = today.getSeconds();
+    /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+    year - 作为date对象的年份，为4位年份值
+    month - 0-11之间的整数，做为date对象的月份
+    day - 1-31之间的整数，做为date对象的天数
+    hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+    minutes - 0-59之间的整数，做为date对象的分钟数
+    seconds - 0-59之间的整数，做为date对象的秒数
+    microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+    var t1 = Date.UTC(2019,06,10,17,27,00); //北京时间2018-2-13 00:00:00
+    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+    var diff = t2-t1;
+    var diffYears = Math.floor(diff/years);
+    var diffDays = Math.floor((diff/days)-diffYears*365);
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+    document.getElementById("sitetime").innerHTML=" 已运行"+/*diffYears+" 年 "+*/diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
+}/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+siteTime();
+</script>
